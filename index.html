@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="امیرعلی عزیزی - برنامه‌نویس و دانشجوی هوش مصنوعی">
+  <title>امیرعلی عزیزی | برنامه‌نویس</title>
+
+  <!-- فونت وزیرمتن -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome برای آیکون‌ها -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- CSS (مسیر اصلاح شد) -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon (لوگوی خودت) -->
+  <link rel="icon" type="image/png" href="logo.png">
+  
+  <!-- استایل اختصاصی برای عکس هدر که در فایل CSS نبود -->
+  <style>
+    .hero {
+      background-image: linear-gradient(to left, rgba(23, 33, 43, 0.95) 40%, rgba(23, 33, 43, 0.7)), url('header.png');
+      background-size: cover;
+      background-position: center;
+      border-radius: 24px;
+      margin-top: 20px;
+    }
+    .logo-img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+    .profile-avatar-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      box-shadow: 0 10px 30px rgba(0, 136, 204, 0.5);
+      position: relative;
+      z-index: 1;
+      border: 3px solid var(--tg-sky);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <nav class="nav">
+      <a href="#" class="logo">
+        <img src="logo.png" alt="لوگو امیرعلی عزیزی" class="logo-img">
+        <div>امیرعلی <span>عزیزی</span></div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">درباره من</a></li>
+        <li><a href="#skills">مهارت‌ها</a></li>
+        <li><a href="#projects">پروژه‌ها</a></li>
+        <li><a href="#contact">تماس</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary">ارتباط با من</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        آماده همکاری و پروژه
+      </div>
+      <h1>سلام، من <span class="highlight">امیرعلی عزیزی</span> هستم</h1>
+      <h2 class="hero-subtitle">برنامه‌نویس و دانشجوی هوش مصنوعی</h2>
+      <p>
+        عاشق دنیای کد و تکنولوژی. در حال یادگیری و ساختن پروژه‌های واقعی در حوزه
+        برنامه‌نویسی و هوش مصنوعی. هدفم تبدیل ایده‌ها به محصولات کاربردی و خلاقانه است.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">مشاهده پروژه‌ها ←</a>
+        <a href="#contact" class="btn btn-ghost">
+          <i class="fa-solid fa-envelope"></i>
+          تماس با من
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">+۱۰</div>
+          <div class="stat-label">پروژه انجام شده</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">+۵</div>
+          <div class="stat-label">مهارت تخصصی</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">علاقه به یادگیری</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="profile-card">
+        <div class="profile-glow"></div>
+        <!-- عکس پروفایل جایگزین حرف A شد -->
+        <img src="logo.png" alt="امیرعلی عزیزی" class="profile-avatar-img">
+        <div class="profile-name">امیرعلی عزیزی</div>
+        <div class="profile-role">Developer & AI Student</div>
+        <div class="profile-social">
+          <a href="https://t.me/amiiiiiir00" target="_blank" title="تلگرام">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <a href="https://instagram.com/amiali.azizi.89" target="_blank" title="اینستاگرام">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="mailto:amiraliaziziii89@gmail.com" title="ایمیل">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+        <div class="profile-status">
+          <span class="online"></span>
+          در حال یادگیری
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="tag">درباره من</span>
+      <h2>کمی بیشتر با من آشنا شوید</h2>
+      <p>مسیر من در دنیای برنامه‌نویسی</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="about-icon">👨‍💻</div>
+        <h3>برنامه‌نویس & دانشجو</h3>
+        <p>
+          در حال تحصیل در حوزه هوش مصنوعی و برنامه‌نویسی. عاشق حل مسائل،
+          یادگیری تکنولوژی‌های جدید و ساختن پروژه‌های واقعی هستم.
+        </p>
+        <div class="about-info">
+          <div class="info-row">
+            <span><i class="fa-solid fa-user"></i> نام</span>
+            <span>امیرعلی عزیزی</span>
+          </div>
+          <div class="info-row">
+            <span><i class="fa-solid fa-graduation-cap"></i> وضعیت</span>
+            <span>دانشجو</span>
+          </div>
+          <div class="info-row">
+            <span><i class="fa-solid fa-code"></i> حوزه</span>
+            <span>برنامه‌نویسی</span>
+          </div>
+          <div class="info-row">
+            <span><i class="fa-solid fa-location-dot"></i> زبان</span>
+            <span>فارسی / انگلیسی</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <h3>مسیر من در برنامه‌نویسی</h3>
+        <p>
+          من امیرعلی عزیزی هستم، دانشجو و علاقه‌مند به دنیای برنامه‌نویسی و هوش مصنوعی.
+          از زمانی که با کدنویسی آشنا شدم، متوجه شدم این حوزه دقیقاً همون چیزیه که
+          دنبالش بودم؛ ترکیبی از خلاقیت، منطق و حل مسئله.
+        </p>
+        <p>
+          در حال حاضر روی یادگیری عمیق‌تر برنامه‌نویسی و تکنولوژی‌های مرتبط با
+          هوش مصنوعی تمرکز دارم و سعی می‌کنم با ساختن پروژه‌های واقعی، مهارت‌هام رو
+          به سطح بالاتری ببرم. هدفم اینه که در آینده بتونم محصولات نرم‌افزاری
+          کاربردی و تأثیرگذار بسازم.
+        </p>
+        <p>
+          اگر به همکاری، پروژه مشترک یا حتی یک گفتگوی دوستانه درباره تکنولوژی
+          علاقه‌مند بودی، خوشحال می‌شم با من در ارتباط باشی! 🚀
+        </p>
+        <div class="skill-chips">
+          <span class="chip">یادگیری مستمر</span>
+          <span class="chip">حل مسئله</span>
+          <span class="chip">کار تیمی</span>
+          <span class="chip">خلاقیت</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <div class="section-head">
+      <span class="tag">مهارت‌ها</span>
+      <h2>چیزهایی که یاد گرفتم</h2>
+      <p>تکنولوژی‌ها و زبان‌هایی که باهاشون کار می‌کنم</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-brands fa-python"></i>
+        </div>
+        <h3>Python</h3>
+        <p>زبان اصلی برای برنامه‌نویسی و هوش مصنوعی</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-brands fa-html5"></i>
+        </div>
+        <h3>HTML & CSS</h3>
+        <p>ساخت رابط‌های کاربری زیبا و واکنش‌گرا</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-brands fa-js"></i>
+        </div>
+        <h3>JavaScript</h3>
+        <p>برنامه‌نویسی سمت کاربر و تعامل پویا</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-brands fa-git-alt"></i>
+        </div>
+        <h3>Git & GitHub</h3>
+        <p>مدیریت نسخه و همکاری در پروژه‌ها</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-solid fa-brain"></i>
+        </div>
+        <h3>هوش مصنوعی</h3>
+        <p>در حال یادگیری مبانی ML و Deep Learning</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <h3>پایگاه داده</h3>
+        <p>آشنایی با SQL و اصول کار با داده</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <span class="tag">پروژه‌ها</span>
+      <h2>نمونه کارهای من</h2>
+      <p>پروژه‌هایی که با عشق ساختم</p>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-icon">🌐</div>
+        <h3>لندینگ پیج شخصی</h3>
+        <p>سایت معرفی شخصی با HTML و CSS، طراحی مدرن و واکنش‌گرا.</p>
+        <div class="project-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">🤖</div>
+        <h3>پروژه هوش مصنوعی</h3>
+        <p>در حال ساخت پروژه‌های کاربردی با Python در حوزه یادگیری ماشین.</p>
+        <div class="project-tags">
+          <span>Python</span>
+          <span>AI</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">📱</div>
+        <h3>وب اپلیکیشن</h3>
+        <p>ساخت اپلیکیشن‌های تحت وب با تمرکز بر تجربه کاربری.</p>
+        <div class="project-tags">
+          <span>JS</span>
+          <span>Web</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / CTA ===== -->
+  <section class="cta" id="contact">
+    <h2>بیا با هم در ارتباط باشیم! 👋</h2>
+    <p>
+      برای همکاری، پروژه مشترک یا حتی یک گفتگوی دوستانه درباره تکنولوژی،
+      از هر کدوم از راه‌های زیر با من در تماس باش
+    </p>
+
+    <div class="contact-grid">
+      <a href="https://t.me/amiiiiiir00" target="_blank" class="contact-item">
+        <div class="contact-icon telegram">
+          <i class="fa-brands fa-telegram"></i>
+        </div>
+        <div class="contact-info">
+          <span>تلگرام</span>
+          <strong>@amiiiiiir00</strong>
+        </div>
+      </a>
+
+      <a href="https://instagram.com/amiali.azizi.89" target="_blank" class="contact-item">
+        <div class="contact-icon instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="contact-info">
+          <span>اینستاگرام</span>
+          <strong>@amiali.azizi.89</strong>
+        </div>
+      </a>
+
+      <a href="mailto:amiraliaziziii89@gmail.com" class="contact-item">
+        <div class="contact-icon email">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="contact-info">
+          <span>ایمیل</span>
+          <strong>amiraliaziziii89@gmail.com</strong>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <a href="#" class="logo">
+        <img src="logo.png" alt="لوگو" class="logo-img">
+        <div>امیرعلی <span>عزیزی</span></div>
+      </a>
+      <ul class="footer-links">
+        <li><a href="#about">درباره</a></li>
+        <li><a href="#skills">مهارت‌ها</a></li>
+        <li><a href="#projects">پروژه‌ها</a></li>
+        <li><a href="#contact">تماس</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      © ۱۴۰۴ امیرعلی عزیزی — ساخته شده با ❤️ و کد
+    </div>
+  </footer>
+
+</body>
+</html>
